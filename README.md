@@ -1,6 +1,6 @@
-# onegoal.website
+# haldra.app
 
-The public pages One Goal is required to link to from its paywall. Apple and
+The public pages Haldra is required to link to from its paywall. Apple and
 Google both reject subscription apps whose paywall has no working Terms and
 Privacy links.
 
@@ -16,7 +16,7 @@ This repo must be **public** for GitHub Pages to serve it on a free plan.
 
 1. Create a public repo `onegoal-website` under `meta5table` and push this folder.
 2. Repo → Settings → Pages → Source: *Deploy from a branch*, branch `main`, folder `/ (root)`.
-3. Under *Custom domain*, enter `onegoal.website` and save. The `CNAME` file here
+3. Under *Custom domain*, enter `haldra.app` and save. The `CNAME` file here
    already declares it.
 4. Once DNS resolves, tick *Enforce HTTPS*.
 
@@ -38,12 +38,12 @@ Delete the default `CNAME  www → parkingpage.namecheap.com` and any
 Propagation is usually under an hour. Verify both links resolve before
 submitting the app:
 
-- https://onegoal.website/privacy
-- https://onegoal.website/terms
+- https://haldra.app/privacy
+- https://haldra.app/terms
 
 ## Email
 
-The pages give `hello@onegoal.website` as the contact address. Namecheap offers
+The pages give `hello@haldra.app` as the contact address. Namecheap offers
 free email forwarding: Domain List → Manage → **Redirect Email**. Point
 `hello@` at a mailbox you actually read. The privacy policy promises a response
 within 30 days, so it needs to reach someone.
