@@ -7,14 +7,14 @@ Privacy links.
 - `/privacy` — the privacy policy. Must stay true to what the app actually does.
 - `/terms` — licence and subscription terms.
 
-The app links to these from `src/lib/legal.ts` in the `onegoal` repo. If a URL
+The app links to these from `src/lib/legal.ts` in the `haldra` repo. If a URL
 here changes, change it there too.
 
 ## Publishing (GitHub Pages)
 
 This repo must be **public** for GitHub Pages to serve it on a free plan.
 
-1. Create a public repo `onegoal-website` under `meta5table` and push this folder.
+1. The public repo is `meta5table/haldra-website`.
 2. Repo → Settings → Pages → Source: *Deploy from a branch*, branch `main`, folder `/ (root)`.
 3. Under *Custom domain*, enter `haldra.app` and save. The `CNAME` file here
    already declares it.
